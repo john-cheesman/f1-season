@@ -1,0 +1,30 @@
+{
+  "name": "instawall",
+  "version": "0.0.0",
+  "description": "A view of your Instagram posts from the past year",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/john-cheesman/instawall.git"
+  },
+  "keywords": [
+    "instagram"
+  ],
+  "author": "John Cheesman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/john-cheesman/instawall/issues"
+  },
+  "homepage": "https://github.com/john-cheesman/instawall",
+  "devDependencies": {
+    "browser-sync": "^1.7.2",
+    "browserify": "^7.0.0",
+    "gulp": "^3.8.10",
+    "gulp-ruby-sass": "^0.7.1",
+    "require-dir": "^0.1.0",
+    "vinyl-source-stream": "^1.0.0"
+  }
+}
