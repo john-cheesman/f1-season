@@ -3,7 +3,7 @@ var gulp         = require('gulp');
 var source       = require('vinyl-source-stream');
 var config       = require('../config').browserify;
 
-gulp.task('browserify', function() {
+gulp.task('browserify', ['clean'], function() {
   var browserifyThis = function(bundleConfig) {
 
     var bundler = browserify({

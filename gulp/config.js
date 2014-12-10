@@ -2,13 +2,16 @@ var dest = './web';
 var src = './src';
 
 module.exports = {
+    clean: {
+      dest: [dest + '/js', dest + '/css']
+    },
     browserSync: {
         server: {
             baseDir: dest
         }
     },
     sass: {
-        src: 'src/sass/*.scss',
+        src: src + '/sass/style.scss',
         dest: dest + '/css',
         settings: {
             sourcemap: true
