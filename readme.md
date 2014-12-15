@@ -1,3 +1,3 @@
-# Instawall
+# F1 Season
 
-A view of your Instagram posts from the past year.
+View F1 Championship Stats for each season.

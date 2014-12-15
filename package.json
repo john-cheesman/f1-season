@@ -1,24 +1,24 @@
 {
-  "name": "instawall",
+  "name": "f1-season",
   "version": "0.0.0",
-  "description": "A view of your Instagram posts from the past year",
+  "description": "View F1 Championship Stats for each season",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/john-cheesman/instawall.git"
+    "url": "https://github.com/john-cheesman/f1-season.git"
   },
   "keywords": [
-    "instagram"
+    "f1"
   ],
   "author": "John Cheesman",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/john-cheesman/instawall/issues"
+    "url": "https://github.com/john-cheesman/f1-season/issues"
   },
-  "homepage": "https://github.com/john-cheesman/instawall",
+  "homepage": "https://github.com/john-cheesman/f1-season",
   "devDependencies": {
     "browser-sync": "^1.7.2",
     "browserify": "^7.0.0",
